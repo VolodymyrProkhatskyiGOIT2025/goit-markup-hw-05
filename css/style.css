@@ -633,3 +633,6 @@ img {
 .form-textarea:focus {
   border-color: #4d5ae5;
 }
+.modal-field-checkbox {
+  margin-bottom: 24px;
+}
