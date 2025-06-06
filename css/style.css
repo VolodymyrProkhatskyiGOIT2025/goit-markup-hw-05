@@ -571,7 +571,7 @@ img {
 
 .form-input {
   border: 1px solid rgba(46, 47, 66, 0.4);
-  margin-bottom: 26px;
+
   border-radius: 4px;
   width: 360px;
   height: 40px;
@@ -580,12 +580,14 @@ img {
 .form-label {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: inline-block;
+  display: block;
   margin-bottom: 4px;
+  background-color: transparent;
 }
 
-.modal-form {
+.input-wrapper {
+  margin-bottom: 8px;
 }
