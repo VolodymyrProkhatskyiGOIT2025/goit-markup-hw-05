@@ -556,7 +556,6 @@ img {
 }
 
 .modal-title {
-  margin-top: 72px;
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -648,6 +647,7 @@ img {
   height: 16px;
   display: inline-flex;
   align-items: center;
+  margin-right: 8px;
   justify-content: center;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -665,10 +665,9 @@ img {
 }
 
 .modal-field-button {
-  margin-top: 24px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   border-radius: 4px;
@@ -685,4 +684,10 @@ img {
   background-color: #4d5ae5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-check:checked + .user-text + .user-element {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
