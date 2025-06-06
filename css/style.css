@@ -657,9 +657,32 @@ img {
   fill: transparent;
 }
 .user-element-icon {
-  width: 8px;
-  height: 10px;
+  width: 10px;
+  height: 8px;
 }
 .user-label-text {
   color: #4d5ae5;
+}
+
+.modal-field-button {
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  background-color: #4d5ae5;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
