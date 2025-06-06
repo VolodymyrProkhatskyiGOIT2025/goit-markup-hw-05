@@ -542,10 +542,35 @@ img {
 
 .modal-title {
   margin-top: 72px;
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+}
+
+.modal-form {
+}
+
+.form-input {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  margin-bottom: 26px;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+
+.form-label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.modal-form {
 }
