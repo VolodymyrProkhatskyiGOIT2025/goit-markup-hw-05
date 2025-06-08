@@ -691,3 +691,32 @@ img {
   border: none;
   fill: #f4f4fd;
 }
+.modal-field-button:hover,
+.modal-field-button:focus {
+  background-color: #404bbf;
+}
+.third-container {
+  margin-left: auto;
+}
+.third-container-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.third-container-form {
+}
+.third-container-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background-color: #4d5ae5;
+}
