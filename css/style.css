@@ -705,7 +705,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  margin-bottom: 16px;
 }
 .third-container-form {
   display: flex;
@@ -736,6 +735,11 @@ img {
   background-color: #31d0aa;
 }
 
+.footer-input:hover,
+.footer-input:focus {
+  border-color: #31d0aa;
+}
+
 .footer-input {
   padding-left: 16px;
   font-size: 12px;
@@ -749,10 +753,3 @@ img {
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
-/* input::placeholder {
-  padding-left: 16px;
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em;
- 
-} */
