@@ -695,6 +695,7 @@ img {
 .modal-field-button:focus {
   background-color: #404bbf;
 }
+
 .third-container {
   margin-left: auto;
 }
@@ -729,7 +730,17 @@ img {
   height: 40px;
   background-color: #4d5ae5;
 }
+
+.third-container-btn:hover,
+.third-container-btn:focus {
+  background-color: #31d0aa;
+}
+
 .footer-input {
+  padding-left: 16px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
   background-color: transparent;
   border: 1px solid #fff;
   border-radius: 4px;
@@ -738,11 +749,10 @@ img {
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
-input::placeholder {
+/* input::placeholder {
   padding-left: 16px;
-  font-weight: 400;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #ffffff;
-}
+ 
+} */
