@@ -738,7 +738,7 @@ img {
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
-.footer-input::placeholder {
+input::placeholder {
   padding-left: 16px;
   font-weight: 400;
   font-size: 12px;
